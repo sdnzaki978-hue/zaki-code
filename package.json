@@ -2,16 +2,13 @@
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
-  "repository": {
-  "type": "git",
-  "url": "https://github.com/sdnzaki978-hue/zaki-code.git"
-},
+  "homepage": "https://sdnzaki978-hue.github.io/zaki-code",
 
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
     "dev": "vite",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
